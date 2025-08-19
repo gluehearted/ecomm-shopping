@@ -105,6 +105,3 @@ Set environment variable di Project Settings sesuai `.env`. Pastikan database Po
 ## Catatan Keamanan
 - Hindari mengekspos secret pembayaran di client. Gunakan server-only environment variable.
 - Pastikan rule bucket Supabase sesuai (publik hanya untuk direktori yang diperlukan).
-
----
-Dikembangkan dengan Next.js 15, React 19, dan Prisma. Kontribusi dan saran sangat dihargai.
