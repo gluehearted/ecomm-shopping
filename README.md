@@ -100,6 +100,8 @@ Konfigurasi ada di `src/lib/auth.ts` menggunakan Lucia + Prisma Adapter. Session
 - `src/app/api/order/status/route.ts`
 
 ## Deployment (Vercel direkomendasikan)
+
+credit: BuildWithAngga
 Set environment variable di Project Settings sesuai `.env`. Pastikan database PostgreSQL dan Supabase Storage siap. Setelah deploy, jalankan migrasi (bila perlu) via job/CLI terpisah.
 
 ## Catatan Keamanan
