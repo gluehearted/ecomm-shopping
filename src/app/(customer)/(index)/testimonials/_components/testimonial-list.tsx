@@ -115,7 +115,7 @@ export default function TestimonialList() {
             
             <div className="mb-4">
               <p className="text-sm text-[#616369] leading-5 mb-2">
-                "{testimonial.comment}"
+                &quot{testimonial.comment}&quot
               </p>
               <div className="inline-block bg-[#EFF3FA] px-3 py-1 rounded-full">
                 <span className="text-xs text-[#0D5CD7] font-medium">
